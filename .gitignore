@@ -1,0 +1,23 @@
+*~     # no files with ending ~
+*.htc
+*.log
+*.sql
+*.md
+
+artisan
+server.php
+phpunit.xml
+.gitattributes
+
+/bootstrap/compiled.php
+/vendor
+composer.phar
+composer.lock
+.env.*.php
+.env.php
+.DS_Store
+Thumbs.db
+
+.idea
+
+app/config/database.php
