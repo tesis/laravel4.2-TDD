@@ -1,23 +1,23 @@
+#in project's root
+
+$ cat .gitignore
+
 *~     # no files with ending ~
 *.htc
 *.log
 *.sql
-*.md
+
+/vendor
+.env
+/NOTES
+/tests
+/node_modules
 
 artisan
 server.php
 phpunit.xml
 .gitattributes
+composer.lock
 
 /bootstrap/compiled.php
-/vendor
-composer.phar
-composer.lock
-.env.*.php
-.env.php
-.DS_Store
-Thumbs.db
-
-.idea
-
-app/config/database.php
+/app/config/database.php
