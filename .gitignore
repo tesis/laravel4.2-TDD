@@ -13,11 +13,10 @@ $ cat .gitignore
 /tests
 /node_modules
 
-artisan
-server.php
-phpunit.xml
 .gitattributes
+phpunit.xml
 composer.lock
 
 /bootstrap/compiled.php
-/app/config/database.php
+/app/config/local/
+/app/config/testing/
