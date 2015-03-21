@@ -7,7 +7,7 @@
 	<title>Laravel Test</title>
 
     <!-- CSS -->
-    <link href="{{asset('css/style.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{asset('css/min/app.css')}}" rel="stylesheet" type="text/css">
 
 	<!-- Fonts -->
 	<link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>

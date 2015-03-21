@@ -20,3 +20,4 @@ composer.lock
 /bootstrap/compiled.php
 /app/config/local/
 /app/config/testing/
+/resources/
